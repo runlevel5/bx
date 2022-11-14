@@ -342,8 +342,8 @@ TEST_CASE("limits", "")
 	STATIC_REQUIRE(bx::LimitsT<int8_t>::min == INT8_MIN);
 	STATIC_REQUIRE(bx::LimitsT<int8_t>::max == INT8_MAX);
 
-	STATIC_REQUIRE(bx::LimitsT<signed char>::min == CHAR_MIN);
-	STATIC_REQUIRE(bx::LimitsT<signed char>::max == CHAR_MAX);
+	STATIC_REQUIRE(bx::LimitsT<signed char>::min == SCHAR_MIN);
+	STATIC_REQUIRE(bx::LimitsT<signed char>::max == SCHAR_MAX);
 
 	STATIC_REQUIRE(bx::LimitsT<unsigned char>::min == 0);
 	STATIC_REQUIRE(bx::LimitsT<unsigned char>::max == UCHAR_MAX);
